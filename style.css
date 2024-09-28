@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.card>img {
+  width: 90%;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+  margin: 24px 0;
+}
+
+.footer {
+  background-color: #404042;
+  color: white;
+  padding: 16px;
+}
+
+.banner {
+  background-image: url("background.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 175px 0;
+}
+
+.btn-blue {
+  background-color: blue;
+  padding: 8px;
+  color: white;
+}
+
+body {
+  margin: 0;
+}
